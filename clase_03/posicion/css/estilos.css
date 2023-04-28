@@ -1,0 +1,92 @@
+/* *{
+    display: none;
+} */
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+#caja1{
+    width: 300px;
+    height: 300px;
+    background-color: #0f0;
+    position: relative;
+}
+
+#wp{
+    width: 50px;
+    height: 50px;
+    background-color: #0f0;
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border-radius: 50%;
+    
+}
+
+#caja2{
+    width: 300px;
+    height: 100px;
+    background-color: #00f;
+    position: sticky;
+    top: 0px;
+    z-index: 9999999999;
+}
+#caja3{
+    width: 300px;
+    height: 100px;
+    background-color: #d7ae26;
+    position: relative;
+    left: 400px;
+}
+#caja4{
+    width: 300px;
+    height: 100px;
+    background-color: #2699d7;
+    z-index: 99;
+    position: relative;
+}
+#caja5{
+    width: 100px;
+    height: 100px;
+    background-color: #d78426;
+    position: relative;
+    left: 100px;
+    top: -50px;
+    opacity: 0.5;
+    z-index: 100 ;
+}
+
+#caja1b{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#caja1c{
+    width: 100px;
+    height: 100px;
+    background-color: #a40d0d;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#caja6{
+    width: 300px;
+    height: 100px;
+    background-color: #a40d0d;
+    display: inline-block;
+}
+#caja7{
+    width: 300px;
+    height: 100px;
+    background-color: #0da48b;
+    display: inline-block;
+}

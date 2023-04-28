@@ -1,0 +1,25 @@
+h1{
+    color: #00f;
+    font-size: 20px;
+}
+
+#caja1{
+    width: 50%;
+    height: 30px;
+    background: #00f;
+    
+
+}
+
+#caja_padre{
+    background: #f00;
+    width: 50%;
+    height: 50px;
+}
+
+.borde_negro{
+    border: #000 solid 3px;
+}
+.p15{
+    padding: 15px;
+}
