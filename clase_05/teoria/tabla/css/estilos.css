@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #d63e3e;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor{
+   
+    padding-left:   80px;
+    padding-right: 80px;
+}
+
+#top{
+    background: #ac2525;
+    padding: 15px 0 15px 0;
+    margin-bottom: 30px;
+    box-shadow: 1px 3px 16px 1px #191918;
+}
+
+#tbl_productos{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h1, h2{
+    font-size: 2rem;
+    font-family: 'Sigmar', cursive;
+}
+
+#tbl_productos td,th{
+    padding: 10px;
+    border: 1px #222 solid;
+}
+
