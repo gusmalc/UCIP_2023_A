@@ -1,0 +1,82 @@
+:root{
+    --color-1: #fff;
+    --color-2: #222;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;    
+}
+html {
+  scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: var(--color-2);
+    color: var(--color-1);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pelota{
+    width: 100px;
+    height: 100px;
+    background: #49d8d1;
+    border-radius: 50%;
+    
+}
+
+#app{   
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#botones{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    
+    width: 100vw;
+}
+#botones>div{
+    width: 50px;
+    height: 50px;
+    background: #e61c1c;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+#b3{
+    transform: rotate(-90deg);
+}
+#b2{
+    transform: rotate(90deg);
+}
+
+#iniciar{
+    width: 50px;
+    height: 50px;
+    background: #e61c1c;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
