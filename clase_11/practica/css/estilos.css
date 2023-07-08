@@ -1,0 +1,9 @@
+#top{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    border-radius: 0px !important;
+}
