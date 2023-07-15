@@ -1,0 +1,25 @@
+#wp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+#ico_wp{
+    font-size: 50px;
+    color: #0f0;
+}
+
+.ico_red{
+    width: 30px;
+    color: #f00;
+}
+#redes{
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    padding-top: 10px;
+}
+
+.ico{
+    fill: #f00;
+    
+}
